@@ -1,2 +1,2 @@
-# workstation-code.d
+# cody
 Code repository management
