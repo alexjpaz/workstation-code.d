@@ -24,4 +24,4 @@ jobs:
       - run: yarn test
       - run: yarn package
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: yarn publish --public --new-version 1.0.0-beta.$CIRCLE_SHA1
+      - run: yarn publish  --no-git-tag-version --public --new-version 1.0.0-beta.$CIRCLE_SHA1
