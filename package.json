@@ -1,12 +1,12 @@
 {
   "name": "@alexjpaz/cody",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Code repository tools",
   "preferGlobal": true,
   "bin": "bin/cody",
   "scripts": {
-      "test": "echo 'skip tests'",
-      "package": "pkg bin/cody --out-path=dist/" 
+    "test": "echo 'skip tests'",
+    "package": "pkg bin/cody --out-path=dist/"
   },
   "dependencies": {
     "chalk": "^2.1.0",
