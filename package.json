@@ -4,6 +4,9 @@
   "description": "Code repository tools",
   "preferGlobal": true,
   "bin": "bin/cody",
+  "files": [
+    "dist"
+   ],
   "scripts": {
     "test": "mocha 'lib/**/*.spec.js'",
     "package": "pkg bin/cody --out-path=dist/"
