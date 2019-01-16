@@ -1,5 +1,7 @@
-# cody
-Code repository management
+# cody 
+> Code repository management
+
+[![CircleCI](https://circleci.com/gh/alexjpaz/cody.svg?style=svg)](https://circleci.com/gh/alexjpaz/cody)
 
 ### installation
 
