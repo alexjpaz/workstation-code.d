@@ -3,7 +3,22 @@
 
 [![CircleCI](https://circleci.com/gh/alexjpaz/cody.svg?style=svg)](https://circleci.com/gh/alexjpaz/cody)
 
-### installation
+# What is Cody?
+
+**Cody** is a command line utilitity program that helps get various git projects organized and easy to find. The `code.d` directory in your home folder contains the git urls and acts as an index for your projects.
+
+```
+# ~/.code.d/github.com
+git@github.com:alexjpaz/cody.git
+```
+
+Cody can then run various tasks for these repositories
+
+* `pull [pattern]` - pull down all matching repositories
+* `search [pattern]` - find the directory the repository is in (see [shell integration](#shell-integration)
+* `open [pattern]` - open the git repository in the browser (useful for github.com repositories)
+
+### Installation
 
 ```
 yarn global add cody
